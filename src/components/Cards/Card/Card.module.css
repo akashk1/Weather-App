@@ -1,0 +1,51 @@
+.Card {
+  width: calc(100%-10px);
+  margin: 10px;
+  height: 200px;
+  background-color: #6dc5db;
+  column-count: 4;
+  column-rule: 1px solid rgb(67, 148, 175);
+  box-sizing: border-box;
+  box-shadow: 4px 5px rgb(202, 197, 197);
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.Card .imageCenter {
+  width: 180px;
+}
+.Card p {
+  margin-left: 10px;
+}
+
+.col2 {
+  margin: 15px;
+}
+
+.chart {
+  margin: 10px;
+  height: 500px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 4px 5px rgb(202, 197, 197);
+}
+.selectOption {
+  position: relative;
+  font-family: Arial;
+  display: inline;
+}
+.selectOption select {
+  background-color: #6dc5db;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 4px 5px rgb(202, 197, 197);
+  width: 200px;
+  margin: 10px;
+  height: 40px;
+  font-size: 20px;
+}
+.forecastText {
+  display: inline;
+}

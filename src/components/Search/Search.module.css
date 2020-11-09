@@ -1,0 +1,25 @@
+.Search input {
+  width: 25%;
+  height: 40px;
+  margin-left: 35%;
+  margin-top: 15px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  border: 2px solid rgb(73, 71, 71);
+  border-radius: 5px;
+  box-shadow: 2px 3px rgb(189, 185, 185);
+}
+
+.btn {
+  margin-left: 43%;
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #ccc;
+  background-color: #ca4c48;
+  width: 150px;
+}
+.btn:hover {
+  background-color: #d42d28;
+}
